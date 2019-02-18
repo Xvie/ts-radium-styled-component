@@ -1,0 +1,30 @@
+{
+  "name": "ts-radium-styled-component",
+  "version": "1.0.17",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.15",
+    "@types/jest": "^23.3.10",
+    "@types/radium": "^0.24.2",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest": "^23.6.0",
+    "radium": "^0.25.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/react": "^16.7.18",
+    "fast-memoize": "^2.5.1",
+    "react": "^16.7.0"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
+  }
+}
